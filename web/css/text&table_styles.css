@@ -1,0 +1,211 @@
+h1{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 65px;
+    color: #2DA0B9;
+}
+
+h2{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: black;
+}
+
+h6{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.h1_style-1{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 40px !important;
+    color: #2DA0B9;
+}
+
+
+
+.p_style-1{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+
+.p_style-2{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.p_style-3{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.p_style-4{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 500px;
+    color: black;
+}
+
+.p_style-5{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 390px;
+    color: black;
+}
+
+.p_style-6{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 475px;
+    max-height: 280px;
+    overflow: auto;
+    overflow-x: hidden;
+    color: #656c71;
+}
+
+.p_style-7{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 130px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+}
+
+.p_style-8{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+}
+
+.p_style-9 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 130px;
+    line-height: 17px;
+    text-align: center;
+    color: #656c71;
+}
+
+.p_style-10{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    line-height: 28px;
+    text-align: left;
+    color: black;
+}
+
+.th_style-1 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.th_style-2 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: black;
+}
+
+
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+
+
+@media only screen and (max-width: 480px)
+{
+	h1{
+        font-size: 42px;
+        line-height: 47px;
+    }
+    h2{
+        font-size: 23px;   
+        line-height: 30px;  
+    }
+    p{
+        font-size: 15px; 
+        line-height: 20px;
+    }
+    .table th {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 400px)
+{
+	h1{
+        font-size: 38px;
+        line-height: 37px;
+    }
+    h2{
+        font-size: 18px;   
+        line-height: 30px;  
+    }
+    p{
+        font-size: 15px; 
+        line-height: 20px;
+    }
+    .table th {
+        font-size: 15px;
+    }
+    .p_style-4{
+        font-size: 28px;
+    }
+    .p_style-5{
+        font-size: 15px;
+    }
+}
